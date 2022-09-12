@@ -18,25 +18,25 @@ const Navbar = () => {
     <>
       <div className="hidden md:flex justify-between font-semibold text-xl items-center">
         <div className="flex md:gap-6 lg:gap-14">
-          <NavLink to="product" style={navStyle}>
+          <NavLink to="#" style={navStyle}>
             Product
           </NavLink>
-          <NavLink to="pricing" style={navStyle}>
+          <NavLink to="#" style={navStyle}>
             Pricing
           </NavLink>
-          <NavLink to="support" style={navStyle}>
+          <NavLink to="#" style={navStyle}>
             Support
           </NavLink>
-          <NavLink to="contact" style={navStyle}>
+          <NavLink to="#" style={navStyle}>
             Contact
           </NavLink>
         </div>
         <div className="flex md:gap-3 lg:gap-10 items-center">
-          <NavLink to="signup" style={navStyle}>
+          <NavLink to="#" style={navStyle}>
             Sign Up
           </NavLink>
           <NavLink
-            to="login"
+            to="#"
             style={navStyle}
             className="bg-gradient-to-r from-will1 to-will2 px-4 lg:px-8 py-2 rounded-lg"
           >
